@@ -4,9 +4,47 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>William Tang</title>
+    <title>Contact</title>
+    <author>William Tang</author>
+    <link rel="stylesheet" href="contact-styles.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
-    <p>For contact me.</p>
+    <div id='section-div'>
+        <a href="index.html">
+            <button class='section-button' id='home-button'>
+                <h1 class='section-text'>Home</h1>
+            </button></a>
+        
+        <a href="Work.html">
+            <button class='section-button' id='work-button'>
+                <h1 class='section-text'>Work</h1>
+            </button></a>
+
+        <a href="Contact.html">
+            <button class='section-button' id='contact-button'>
+                <h1 class='section-text'>Contact</h1>
+            </button></a>
+    </div>
+
+    <div class='info-text-div'>
+        <p>Email: william.tang@berkeley.edu</p>
+        <p>LinkedIn: www.linkedin.com/in/william-tang-cal/</p>
+
+        <form id="text-form">
+            <label>Say hi:</label>
+            <input type="text" class='input-enter'/>
+            <input type='submit'/>
+        </form>
+        <script>
+            const input = document.getElementById('input-enter');
+            const submit = document.getElementById('text-form');
+            submit.addEventListener('submit', function (event) {
+                alert('Hey there!');
+            });
+        </script>
+    </div>
 </body>
 </html>
