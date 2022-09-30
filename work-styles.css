@@ -1,0 +1,60 @@
+* {
+    font-family: 'Open Sans';
+}
+
+#section-div {
+    position: fixed;
+    right: 40px;
+    
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 10px;
+}
+
+.section-button {
+    outline: 0;
+    border: none;
+    background-color: transparent;
+}
+
+.section-button:hover {
+    color: #4F4789;
+}
+
+.section-text {
+    font-size: 20px;
+}
+
+.info-text-div {
+    position: relative;
+    top: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.short-description {
+    text-align: center;
+    margin-bottom: -40px;
+    font-size: 30px;
+}
+
+.coding-project {
+    text-align: center;
+    margin-bottom: -5px;
+    font-size: 25px;
+}
+a {
+    color: black;
+    text-decoration: none; 
+}
+
+a:hover {
+    color: #4F4789;
+}
+
+p {
+    text-align: center;
+    white-space: pre-line;
+    margin-bottom: -30px;
+}

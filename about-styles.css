@@ -1,3 +1,7 @@
+* {
+    font-family: 'Open Sans';
+}
+
 #section-div {
     position: fixed;
     right: 40px;
@@ -58,12 +62,10 @@
 
 .short-description {
     text-align: center;
-    font-family: 'Open Sans';
     margin-bottom: -10px;
 }
 
 .about-me {
     text-align: center;
     white-space: pre-line;
-    font-family: 'Open Sans';
 }
