@@ -1,0 +1,51 @@
+#section-div {
+    position: fixed;
+    right: 40px;
+    
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 10px;
+}
+
+.section-button {
+    outline: 0;
+    border: none;
+    background-color: transparent;
+}
+
+.section-button:hover {
+    color: #4F4789;
+}
+
+.section-text {
+    font-size: 20px;
+}
+
+#info-div {
+    position: absolute;
+    top: 20%;
+    left: 25%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#info-text-div {
+    margin: 50px;
+}
+
+#title-name {
+    text-align: center;
+    font-family: 'Open Sans';
+}
+
+#short-description {
+    text-align: center;
+    font: 20px Open Sans;
+}
+
+#about-me {
+    text-align: center;
+    white-space: pre-line;
+    font-family: 'Open Sans';
+}

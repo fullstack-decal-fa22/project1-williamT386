@@ -4,27 +4,42 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="William Tang">
     <title>William Tang</title>
+    <link rel="stylesheet" href="styles.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div id='sectionDiv'>
+    <div id='section-div'>
         <a href="About.html">
-            <button id='aboutButton'>
-                <p>About</p>
-            </button>
-        </a>
-
+            <button class='section-button' id='about-button'>
+                <h1 class='section-text'>About</h1>
+            </button></a>
+        
         <a href="Work.html">
-            <button id='workButton'>
-                <p>Work</p>
-            </button>
-        </a>
+            <button class='section-button' id='work-button'>
+                <h1 class='section-text'>Work</h1>
+            </button></a>
 
         <a href="Contact.html">
-            <button id='contactButton'>
-                <p>Contact</p>
-            </button>
-        </a>
+            <button class='section-button' id='contact-button'>
+                <h1 class='section-text'>Contact</h1>
+            </button></a>
+    </div>
+
+    <div id='info-div'>
+        <div id='img-div'>
+            <img src="William-Tang.png" alt="William Tang's Photo" height=400px/>
+        </div>
+        <div id='info-text-div'>
+            <h2 id='title-name'>William Tang</h2>
+            <h3 id='short-description'>Full-stack developer, UC Berkeley EECS</h3>
+            <h4 id='about-me'>Hi! I love learning, building, and helping others. 
+                I'm always open for a good conversation, 
+                so feel free to reach out!</h4>
+        </div>
     </div>
 </body>
 </html>
